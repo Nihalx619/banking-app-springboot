@@ -1,0 +1,13 @@
+spring.application.name=bankingapp
+
+# Database Configuration
+spring.datasource.url=jdbc:mysql://localhost:3306/bankingapp
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+
+# JPA Configuration
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+# Port
+server.port=8080
